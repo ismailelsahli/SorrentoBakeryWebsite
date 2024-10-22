@@ -1,115 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sorrento Bakery</title>
-  </head>
-  <body>
-    <!-- Home Page -->
-    <div>
-      <div>
-        <span>Welcome to Sorrento Bakery</span>
-        <div></div>
-      </div>
-      <div>
-        <button>Explore Our Menu</button>
-        <button>Order Now</button>
-      </div>
-      <span>Our Story<br /></span>
-      <div>
-        <span>
-          Welcome to Sorrento Bakery, your go-to bakery for a delightful
-          assortment of fresh, handmade pastries, breads, and desserts. We pride
-          ourselves on using the finest ingredients to create the most delicious
-          and unique flavors that leave our customers craving more. Whether
-          you're looking for a warm loaf of bread, a custom cake for a special
-          occasion, or just a sweet treat, we have something for everyone.
-        </span>
-        <span>
-          Special Offer: Get 10% off on all bread purchases every Monday!
-        </span>
-      </div>
-    </div>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
 
-    <!-- Menu Page -->
-    <div>
-      <div>
-        <span>Menu</span>
-        <div><div></div></div>
-      </div>
-      <div>
-        <!-- Cookies and Small Treats -->
-        <div>
-          <span>Cookies and Small Treats<br /></span>
-          <span>
-            <br />Chocolate Chip Cookie – $1.49<br />Macron (per piece) – $2.49<br />Brownie – $3.99<br />
-            Sugar Cookie – $1.29<br />Oatmeal Raisin Cookie – $1.59<br />
-            Peanut Butter Cookie – $1.69<br />Snickerdoodle – $1.79<br />
-          </span>
-        </div>
-        <!-- Coffee -->
-        <div>
-          <span>Coffee<br /></span>
-          <span>
-            Iced Vanilla Coffee - $4.99<br />Caramel Iced Coffee - $4.99<br />Decaf Cup of Joe - $3.50<br />
-            Espresso – $3.00<br />Cappuccino – $4.50<br />Latte – $4.75<br />Mocha Latte – $5.00<br />
-            Americano – $3.25<br />Caramel Macchiato – $5.25
-          </span>
-        </div>
-        <!-- Breads & Pastries -->
-        <div>
-          <span>Breads & Pastries<br /></span>
-          <span>
-            <br />Sourdough – $5.99<br />Baguette – $3.49<br />Multigrain – $6.49<br />
-            Croissant – $2.99<br />Danish Pastry – $3.99<br />Cinnamon Roll – $4.99<br />
-          </span>
-        </div>
-        <!-- Cakes -->
-        <div>
-          <span>Cakes<br /></span>
-          <span>
-            <br />Chocolate Cake (8-inch) – $29.99<br />Vanilla Sponge Cake (8-inch) – $27.99<br />
-            Red Velvet Cake (8-inch) – $34.99<br />Chocolate Chip Cookie – $1.49<br />
-            Macaron (per piece) – $2.49<br />Brownie – $3.99<br />
-          </span>
-        </div>
-      </div>
-    </div>
+    <!-- Home Page Section -->
+    <section id="home" class="page">
+        <h1>Welcome to Sorrento Bakery</h1>
+        <p>Welcome to Sorrento Bakery, your go-to bakery for a delightful assortment of fresh, handmade pastries, breads, and desserts.</p>
+        <a href="#menu" class="button">Explore Our Menu</a>
+        <a href="#order" class="button">Order Now</a>
+        <p class="offer">Special Offer: Get 10% off on all bread purchases every Monday!</p>
+    </section>
 
-    <!-- Order Online Page -->
-    <div>
-      <div>
-        <span>Order Online</span><span></span>
-      </div>
-      <div>
-        <div>
-          <span>Name</span>
-          <div>
-            <input /><span>Value</span>
-          </div>
+    <!-- Menu Page Section -->
+    <section id="menu" class="page">
+        <h2>Menu</h2>
+        <div class="menu-item">
+            <h3>Breads & Pastries</h3>
+            <ul>
+                <li>Sourdough - $5.99</li>
+                <li>Baguette - $3.49</li>
+                <li>Multigrain - $6.49</li>
+                <li>Croissant - $2.99</li>
+                <li>Danish Pastry - $3.99 </li>
+                <li>Cinnamon Roll - $4.99</li>
+            </ul>
         </div>
-        <div>
-          <span>Menu Item(s)</span>
-          <div>
-            <input /><span>Value</span>
-          </div>
+        <div class="menu-item">
+            <h3>Cakes</h3>
+            <ul>
+                <li>Chocolate Cake (8-inch) - $29.99</li>
+                <li>Whole Vanilla Cake - $27.99</li>
+                <li>Carrot Cake - $34.99</li>
+                <li>Birthday Cupcake - $2.49</li>
+                <li>Brownie - $3.99</li>
+            </ul>
         </div>
-        <div>
-          <span>Phone number</span>
-          <div>
-            <input /><span>Value</span>
-          </div>
+        <div class="menu-item">
+            <h3>Coffee</h3>
+            <ul>
+                <li>Iced Vanilla Coffee - $4.99</li>
+                <li>Carmel Iced Coffee -$4.99 </li>
+                <li>Decaf Cup of Joe - $3.50</li>
+                <li>Esoresso - $3.00</li>
+                <li>Cappuccino - $4.50</li>
+                <li>Latte - $4.75</li>
+                <li>Mocha Latte -$5.00</li>
+                <li>Americano - $3.25</li>
+                <li>Caramel Macchiato - $5.25</li>
+            </ul>
         </div>
-        <div>
-          <span>Payment</span>
-          <div>
-            <input /><span>Value</span>
-            <div></div>
-          </div>
+        <div class="menu-item">
+            <h3>Cookies and Small Treats</h3>
+            <ul>
+                <li>Chocolate Chip Cookie - $1.49</li>
+                <li>Macaron - $2.49</li>
+                <li>Brownie - $3.99</li>
+                <li>Sugar Cookie - $1.99</li>
+                <li>Oatmeal Raisin Cookie - $1.99</li>
+                <li>Peanut Butter Cookie $1.70</li>
+                <li>Snickerdoodle - $1.80</li>
+            </ul>
         </div>
-        <button><span>Submit</span></button>
-      </div>
-    </div>
-  </body>
+        <a href="#order" class="button">Order Now</a>
+        <form class="newsletter">
+            <label for="email">Follow the latest trends with our daily newsletter</label>
+            <input type="email" id="email" placeholder="you@domain.com">
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <!-- Order Online Page Section -->
+    <section id="order" class="page">
+        <h2>Order Now</h2>
+        <p>Welcome to our online ordering system! You can now conveniently order your favorite baked goods for pickup. Simply fill out the form below with your selections and details. We'll have your order ready in no time!.</p>
+        <form id="order-form">
+            <label for="name">Name</label>
+            <input type="text" id="name">
+            <label for="menu-item">Menu Item</label>
+            <input type="text" id="menu-item">
+            <label for="phone-number">Phone Number</label>
+            <input type="tel" id="phone-number">
+            <label for="payment">Payment</label>
+            <input type="text" id="payment">
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <!-- Contact Page Section -->
+    <section id="contact" class="page">
+        <h2>Get In Touch</h2>
+        <form id="contact-form">
+            <label for="email-contact">Email</label>
+            <input type="email" id="email-contact">
+            <button type="submit">Send</button>
+        </form>
+        <div class="social-icons">
+            <a href="#"><img src="icons/email.svg" alt="Email"></a>
+            <a href="#"><img src="icons/instagram.svg" alt="Instagram"></a>
+            <a href="#"><img src="icons/map.svg" alt="Map"></a>
+            <a href="#"><img src="icons/facebook.svg" alt="Facebook"></a>
+            <a href="#"><img src="icons/linkedin.svg" alt="LinkedIn"></a>
+        </div>a
+    </section>
+
+</body>
 </html>
