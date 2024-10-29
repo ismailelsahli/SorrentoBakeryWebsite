@@ -1,41 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Contact</title>
-    <!-- Link to external CSS -->
-    <link rel="stylesheet" href="contact-style.css" />
-  </head>
-  <body>
-    <!-- Main Contact Section -->
-    <div class="contact-container">
-      <h1>Get In Touch</h1>
-      <p>Have questions or special requests?</p>
-
-      <!-- Contact Form -->
-      <form class="contact-form">
-        <label for="email">Email</label>
-        <input
-          type="email"
-          id="email"
-          placeholder="Your email"
-          required
-        />
-        <div class="form-buttons">
-          <button type="reset" class="cancel-button">Cancel</button>
-          <button type="submit" class="send-button">Send</button>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorrento Bakery - Contact</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="order.html">Order Online</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    <section id="contact">
+        <h2>Get In Touch</h2>
+        <form id="contact-form">
+            <label for="email-contact">Email</label>
+            <input type="email" id="email-contact">
+            <button type="submit">Send</button>
+        </form>
+        <div class="social-icons">
+            <a href="#"><img src="icons/email.svg" alt="Email"></a>
+            <a href="#"><img src="icons/instagram.svg" alt="Instagram"></a>
+            <a href="#"><img src="icons/map.svg" alt="Map"></a>
+            <a href="#"><img src="icons/facebook.svg" alt="Facebook"></a>
+            <a href="#"><img src="icons/linkedin.svg" alt="LinkedIn"></a>
         </div>
-      </form>
-
-      <!-- Social Media Icons using Emojis -->
-      <div class="icons">
-        <a href="#" title="Email">📧</a>
-        <a href="#" title="Instagram">📸</a>
-        <a href="#" title="Map">🗺️</a>
-        <a href="#" title="Facebook">👍</a>
-        <a href="#" title="LinkedIn">👔</a>
-      </div>
-    </div>
-  </body>
+    </section>
+</body>
 </html>
